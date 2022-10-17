@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="bootstrap.min (1).css">
+    <link rel="stylesheet" href="tictactoe.css">
+    
+    
+</head>
+
+<h1 id="playerText">Tic-Tac-Toe</h1>
+
+<!--This is the message structure and button structure for the end
+of a game and the button to restart a game-->
+<div class = "game-over-message" id="game-over-message">
+  <div id="winner-text" class="winner-text"></div> 
+  <button type="button" id="playAgainButton" class="btn btn-light">Play Again</button>
+ </div>
+
+<!--HTML structure of gameboard using divs to create it-->
+<div id="game-grid" class="game-grid">
+  <div data-cell class="tile right-border"></div>
+  <div data-cell class="tile right-border"></div>
+  <div data-cell class="tile"></div>
+  <div data-cell class="tile right-border top-border"></div>
+  <div data-cell class="tile right-border top-border"></div>
+  <div data-cell class="tile top-border"></div>
+  <div data-cell class="tile right-border top-border"></div>
+  <div data-cell class="tile right-border top-border"></div>
+  <div data-cell class="tile top-border"></div>
+</div>
+
+
+
+
+
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="tictactoe.js"></script>
+
+</body>
+</html>
